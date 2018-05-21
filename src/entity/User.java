@@ -1,5 +1,6 @@
 package entity;
 
+import java.util.Arrays;
 import java.util.Date;
 
 public class User {
@@ -11,6 +12,12 @@ public class User {
 	 * 密码
 	 */
 	private String mypassword;
+	@Override
+	public String toString() {
+		return "User [username=" + username + ", mypassword=" + mypassword + ", email=" + email + ", gender=" + gender
+				+ ", birthday=" + birthday + ", favorites=" + Arrays.toString(favorites) + ", introduce=" + introduce
+				+ ", acceptState=" + acceptState + "]";
+	}
 	/**
 	 * 电邮
 	 */
