@@ -19,7 +19,7 @@ public class User {
 				+ ", acceptState=" + acceptState + "]";
 	}
 	/**
-	 * 电邮
+	 * 电子邮件
 	 */
 	private String email;
 	/**
